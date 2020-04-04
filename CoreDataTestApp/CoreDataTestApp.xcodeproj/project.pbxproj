@@ -18,6 +18,8 @@
 		21AD427F243875AC00F48B1B /* CoreDataTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD427E243875AC00F48B1B /* CoreDataTestAppUITests.swift */; };
 		21AD428E243878A100F48B1B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD428C243878A100F48B1B /* LoginController.swift */; };
 		21AD428F243878A100F48B1B /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AD428D243878A100F48B1B /* LoginController.xib */; };
+		21AD42922438835800F48B1B /* Forgotpassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD42902438835800F48B1B /* Forgotpassword.swift */; };
+		21AD42932438835800F48B1B /* Forgotpassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AD42912438835800F48B1B /* Forgotpassword.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		21AD4280243875AC00F48B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AD428C243878A100F48B1B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		21AD428D243878A100F48B1B /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		21AD42902438835800F48B1B /* Forgotpassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgotpassword.swift; sourceTree = "<group>"; };
+		21AD42912438835800F48B1B /* Forgotpassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Forgotpassword.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				21AD4262243875AA00F48B1B /* CoreDataTestApp.xcdatamodeld */,
 				21AD428C243878A100F48B1B /* LoginController.swift */,
 				21AD428D243878A100F48B1B /* LoginController.xib */,
+				21AD42902438835800F48B1B /* Forgotpassword.swift */,
+				21AD42912438835800F48B1B /* Forgotpassword.xib */,
 			);
 			path = CoreDataTestApp;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AD42932438835800F48B1B /* Forgotpassword.xib in Resources */,
 				21AD4269243875AC00F48B1B /* LaunchScreen.storyboard in Resources */,
 				21AD428F243878A100F48B1B /* LoginController.xib in Resources */,
 				21AD4266243875AC00F48B1B /* Assets.xcassets in Resources */,
@@ -272,6 +279,7 @@
 				21AD4264243875AA00F48B1B /* CoreDataTestApp.xcdatamodeld in Sources */,
 				21AD425E243875AA00F48B1B /* ViewController.swift in Sources */,
 				21AD425A243875AA00F48B1B /* AppDelegate.swift in Sources */,
+				21AD42922438835800F48B1B /* Forgotpassword.swift in Sources */,
 				21AD425C243875AA00F48B1B /* SceneDelegate.swift in Sources */,
 				21AD428E243878A100F48B1B /* LoginController.swift in Sources */,
 			);

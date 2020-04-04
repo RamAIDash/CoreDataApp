@@ -16,6 +16,8 @@
 		21AD4269243875AC00F48B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AD4267243875AC00F48B1B /* LaunchScreen.storyboard */; };
 		21AD4274243875AC00F48B1B /* CoreDataTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD4273243875AC00F48B1B /* CoreDataTestAppTests.swift */; };
 		21AD427F243875AC00F48B1B /* CoreDataTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD427E243875AC00F48B1B /* CoreDataTestAppUITests.swift */; };
+		21AD428E243878A100F48B1B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD428C243878A100F48B1B /* LoginController.swift */; };
+		21AD428F243878A100F48B1B /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AD428D243878A100F48B1B /* LoginController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		21AD427A243875AC00F48B1B /* CoreDataTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AD427E243875AC00F48B1B /* CoreDataTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestAppUITests.swift; sourceTree = "<group>"; };
 		21AD4280243875AC00F48B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AD428C243878A100F48B1B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		21AD428D243878A100F48B1B /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				21AD4267243875AC00F48B1B /* LaunchScreen.storyboard */,
 				21AD426A243875AC00F48B1B /* Info.plist */,
 				21AD4262243875AA00F48B1B /* CoreDataTestApp.xcdatamodeld */,
+				21AD428C243878A100F48B1B /* LoginController.swift */,
+				21AD428D243878A100F48B1B /* LoginController.xib */,
 			);
 			path = CoreDataTestApp;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AD4269243875AC00F48B1B /* LaunchScreen.storyboard in Resources */,
+				21AD428F243878A100F48B1B /* LoginController.xib in Resources */,
 				21AD4266243875AC00F48B1B /* Assets.xcassets in Resources */,
 				21AD4261243875AA00F48B1B /* Main.storyboard in Resources */,
 			);
@@ -266,6 +273,7 @@
 				21AD425E243875AA00F48B1B /* ViewController.swift in Sources */,
 				21AD425A243875AA00F48B1B /* AppDelegate.swift in Sources */,
 				21AD425C243875AA00F48B1B /* SceneDelegate.swift in Sources */,
+				21AD428E243878A100F48B1B /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
